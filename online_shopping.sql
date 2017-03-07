@@ -73,6 +73,7 @@ CREATE TABLE IF NOT EXISTS `tbl_product` (
   `Vchr_product_name` varchar(20) DEFAULT NULL,
   `Vchr_img_path` varchar(20) DEFAULT NULL,
   `Vchr_colour` varchar(20) DEFAULT NULL,
+   `Vchr_brand` varchar(20) DEFAULT NULL,
   `Int_size` int(20) DEFAULT NULL,
   `Int_Price` float DEFAULT NULL,
   `Fk_int_product_id` int(11) DEFAULT NULL,
